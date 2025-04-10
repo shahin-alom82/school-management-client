@@ -2,4 +2,9 @@
 
 body {
       font-family: "Poppins", sans-serif;
+      background-image: url('./assets/bg-v2.png');
+}
+
+.bangla {
+      font-family: 'Noto Sans Bengali', sans-serif;
 }
