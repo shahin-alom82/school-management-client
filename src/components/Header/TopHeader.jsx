@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import Container from '../Container';
 import moment from 'moment';
 import { TfiEmail } from 'react-icons/tfi';
-import { FiPhoneCall } from 'react-icons/fi';
 import { FaRegCalendarAlt } from 'react-icons/fa';
-import { IoMdTime } from 'react-icons/io';
+import { RiSchoolLine } from 'react-icons/ri';
+import { IoTimeOutline } from 'react-icons/io5';
 
 const TopHeader = () => {
       const [time, setTime] = useState(moment());
@@ -19,8 +19,9 @@ const TopHeader = () => {
       return (
             <div>
                   <div className='bg-white py-3'>
-                        <h1 className='text-center bangla text-[#01a2a6] tracking-wide lg:[18px] text-sm'>পড় তোমার রবের নামে, যিনি তুমাকে সৃষ্টি করেছেন।</h1>
+                        <h1 className='text-center bangla text-[#609513] tracking-wide lg:[18px] text-sm'>পড় তোমার রবের নামে, যিনি তুমাকে সৃষ্টি করেছেন।</h1>
                   </div>
+                  {/* [#609513] */}
                   <div className='bg-[#01a2a6] py-3 text-white'>
                         <Container className="flex flex-col md:flex-row lg:items-center justify-between gap-4">
                               {/* Contact Info */}
@@ -30,9 +31,9 @@ const TopHeader = () => {
                                           <span className='border py-1 px-1 rounded-full'><FaRegCalendarAlt size={10} /></span>
                                           <span>{time.format('dddd, Do MMMM,  YYYY')}</span>
                                     </div>
-                                    <div className='flex items-center gap-2'>
-                                          <IoMdTime size={20} />
-                                          <span>{time.format('h:mm:ss A')}</span>
+                                    <div className='flex items-center gap-1'>
+                                          <IoTimeOutline size={20} />
+                                          <span className='mt-[1px]'>{time.format('h:mm:ss A')}</span>
                                     </div>
                               </div>
                               <div className='flex flex-col lg:flex-row lg:items-center lg:gap-8 gap-4'>
@@ -42,8 +43,8 @@ const TopHeader = () => {
                                     </div>
                                     <div>
                                           <div className="flex items-center gap-2">
-                                                <span className='border py-1 px-1 rounded-full'><FiPhoneCall size={10} /></span>
-                                                <span className="tracking-wide ">01682247291</span>
+                                                <span className='border py-1 px-1 rounded-full'><RiSchoolLine size={10} /></span>
+                                                <span className="tracking-wide ">EIIN: 6827291</span>
                                           </div>
                                     </div>
                               </div>
