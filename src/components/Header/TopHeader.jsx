@@ -19,12 +19,12 @@ const TopHeader = () => {
       return (
             <div>
                   <div className='bg-white py-3'>
-                        <h1 className='text-center bangla text-[#01a2a6] tracking-wide'>পড় তোমার রবের নামে, যিনি তুমাকে সৃষ্টি করেছেন।</h1>
+                        <h1 className='text-center bangla text-[#01a2a6] tracking-wide lg:[18px] text-sm'>পড় তোমার রবের নামে, যিনি তুমাকে সৃষ্টি করেছেন।</h1>
                   </div>
                   <div className='bg-[#01a2a6] py-3 text-white'>
-                        <Container className="flex flex-col md:flex-row items-center justify-between gap-4">
+                        <Container className="flex flex-col md:flex-row lg:items-center justify-between gap-4">
                               {/* Contact Info */}
-                              <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-10">
+                              <div className="flex flex-col sm:flex-row lg:items-center gap-4 sm:gap-10">
                                     {/* Live Date & Time */}
                                     <div className='flex items-center gap-2'>
                                           <span className='border py-1 px-1 rounded-full'><FaRegCalendarAlt size={10} /></span>
@@ -35,8 +35,8 @@ const TopHeader = () => {
                                           <span>{time.format('h:mm:ss A')}</span>
                                     </div>
                               </div>
-                              <div className='flex items-center gap-8'>
-                                    <div className="flex items-center gap-2 border-r border-white pr-8">
+                              <div className='flex flex-col lg:flex-row lg:items-center lg:gap-8 gap-4'>
+                                    <div className="flex items-center gap-2">
                                           <span className='border py-1 px-1 rounded-full'><TfiEmail size={10} /></span>
                                           <span className="tracking-wide"> assimhighschool1946@gmail.com</span>
                                     </div>
