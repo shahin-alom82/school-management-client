@@ -4,6 +4,10 @@ import SortDetails from '../components/LeftSide/SortDetails';
 import Banner from '../components/LeftSide/Banner';
 import HeadTeacher from '../components/RightSide/HeadTeacher';
 import GovLink from '../components/RightSide/GovLink';
+import NationalSong from '../components/RightSide/NationalSong';
+import Hotline from '../components/RightSide/Hotline';
+import Club from '../components/RightSide/Club';
+import Cart from '../components/LeftSide/Cart';
 const Home = () => {
       return (
             <Container>
@@ -11,10 +15,14 @@ const Home = () => {
                         <div className='lg:w-6/8'>
                               <Banner />
                               <SortDetails />
+                              <Cart />
                         </div>
                         <div className='lg:w-2/8'>
                               <HeadTeacher />
                               <GovLink />
+                              <NationalSong />
+                              <Club />
+                              <Hotline />
                         </div>
                   </div>
             </Container>

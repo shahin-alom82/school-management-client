@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Container from '../Container';
 import moment from 'moment';
-import { TfiEmail } from 'react-icons/tfi';
 import { FaRegCalendarAlt } from 'react-icons/fa';
 import { RiSchoolLine } from 'react-icons/ri';
 import { IoTimeOutline } from 'react-icons/io5';
@@ -37,10 +36,6 @@ const TopHeader = () => {
                                     </div>
                               </div>
                               <div className='flex flex-col lg:flex-row lg:items-center lg:gap-8 gap-4'>
-                                    <div className="flex items-center gap-2">
-                                          <span className='border py-1 px-1 rounded-full'><TfiEmail size={10} /></span>
-                                          <span className="tracking-wide"> assimhighschool1946@gmail.com</span>
-                                    </div>
                                     <div>
                                           <div className="flex items-center gap-2">
                                                 <span className='border py-1 px-1 rounded-full'><RiSchoolLine size={10} /></span>

@@ -15,6 +15,7 @@ const BottomHeader = () => {
             { title: "Notice Board", path: "/notice-board", icon: <GrAnnounce size={18}/> },
             { title: "Class Routines", path: "/class-routines", icon: <SiGoogleclassroom size={18}/> },
             { title: "Exam Result", path: "/exam-result", icon: <PiExam size={20}/>},
+            { title: "Public Exam Result", path: "/exam-result", icon: <PiExam size={20}/>},
             { title: "Login", path: "/login", icon: <FiLogIn size={18}/> },
       ]
       return (

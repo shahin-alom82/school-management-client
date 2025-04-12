@@ -27,7 +27,7 @@ const Banner = () => {
                         <div className="overflow-hidden" ref={emblaRef}>
                               <div className="flex">
                                     {bannerImages.map((item, index) => (
-                                          <div key={index} className="flex-[0_0_100%] lg:h-[440px]">
+                                          <div key={index} className="flex-[0_0_100%] lg:h-[480px]">
                                                 <img
                                                       src={item.source}
                                                       alt={item.title}
