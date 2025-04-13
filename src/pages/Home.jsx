@@ -8,6 +8,7 @@ import NationalSong from '../components/RightSide/NationalSong';
 import Hotline from '../components/RightSide/Hotline';
 import Club from '../components/RightSide/Club';
 import Cart from '../components/LeftSide/Cart';
+import Addmisssion from '../components/RightSide/Addmisssion';
 const Home = () => {
       return (
             <Container>
@@ -21,6 +22,7 @@ const Home = () => {
                               <HeadTeacher />
                               <GovLink />
                               <NationalSong />
+                              <Addmisssion />
                               <Club />
                               <Hotline />
                         </div>
