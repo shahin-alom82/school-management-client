@@ -51,7 +51,7 @@ const Cart = () => {
 
 
       return (
-            <div className='bangla grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-10'>
+            <div className='bangla grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-6'>
                   {
                         cart?.map((item) => (
                               <div className='border-2 border-gray-300 py-4 px-4'>
