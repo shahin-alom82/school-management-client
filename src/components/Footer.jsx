@@ -17,9 +17,9 @@ const Footer = () => {
                               </h1>
                         </div>
                   </Container>
-                  <h1 className='lg:max-w-screen-xl mx-auto text-center text-sm py-4 px-4 border-t border-white bangla'>
+                  {/* <h1 className='lg:max-w-screen-xl mx-auto text-center text-sm py-4 px-4 border-t border-white bangla'>
                         &copy; {new Date().getFullYear()} সমস্ত অধিকার সংরক্ষিত।
-                  </h1>
+                  </h1> */}
             </div>
       );
 };

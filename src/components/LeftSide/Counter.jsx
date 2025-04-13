@@ -7,8 +7,8 @@ const Counter = () => {
             <div className='bangla mt-4'>
                   <Marquee>
                         <div className='flex gap-4'>
-                              <img src={img} alt="img" className='h-[260px]' />
-                              <img src={img} alt="img" className='h-[260px]' />
+                              <img src={img} alt="img" className='lg:h-[260px] h-20' />
+                              <img src={img} alt="img" className='lg:h-[260px] h-20' />
                         </div>
                   </Marquee>
             </div>

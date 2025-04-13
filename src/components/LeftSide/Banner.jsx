@@ -18,12 +18,12 @@ const Banner = () => {
       return (
             <div>
                   <Marquee>
-                        <h1 className="bangla tracking-wide text-gray-800">
+                        <h1 className="bangla tracking-wide text-gray-800 mt-3">
                               আছিম বহুমূখী উচ্চ বিদ্যালয় এ আপনাকে স্বাগতম |
                         </h1>
                   </Marquee>
 
-                  <div className="mt-2">
+                  <div className="mt-[17px]">
                         <div className="overflow-hidden" ref={emblaRef}>
                               <div className="flex">
                                     {bannerImages.map((item, index) => (

@@ -3,7 +3,7 @@ import mp4 from "../../assets/song24.mp4"
 
 const NationalSong = () => {
       return (
-            <div className='mt-3 bangla'>
+            <div className='mt-4 bangla'>
                   <h1 className='text-center tracking-wide bg-[#609513]  py-2 rounded-t-md text-white'>
                         জাতীয় সংগীত
                   </h1>

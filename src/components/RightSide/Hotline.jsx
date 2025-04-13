@@ -20,7 +20,7 @@ const Hotline = () => {
 
 
       return (
-            <div className='bangla mt-3'>
+            <div className='bangla mt-4'>
                   <h1 className='text-center tracking-wide bg-[#609513]  py-2 rounded-t-md text-white'>
                         জরুরি হটলাইন
                   </h1>

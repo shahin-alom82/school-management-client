@@ -8,7 +8,7 @@ const Addmisssion = () => {
             { icon: <IoMdCheckmarkCircle />, title: "অন্যান্য তথ্য" },
       ]
       return (
-            <div className='mt-3 bangla'>
+            <div className='mt-4 bangla'>
                   <h1 className='text-center tracking-wide bg-[#609513]  py-2 rounded-t-md text-white'>
                         ভর্তি ও ফর্ম ফিলাপ
                   </h1>
