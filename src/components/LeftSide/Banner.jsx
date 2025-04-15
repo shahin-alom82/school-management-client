@@ -2,7 +2,7 @@ import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import bannerOne from "../../assets/banner1.jpg";
-// import bannerTwo from "../../assets/banner2.jpg";
+import banner3 from "../../assets/banner3.jpg";
 import Marquee from "react-fast-marquee";
 
 const Banner = () => {
@@ -10,14 +10,12 @@ const Banner = () => {
 
       const bannerImages = [
             { title: "bannerOne", source: bannerOne },
-            { title: "bannerOne", source: bannerOne },
-            { title: "bannerOne", source: bannerOne },
-            // { title: "bannerTwo", source: bannerTwo },
+            { title: "bannerOne", source: banner3 },
       ];
 
       return (
             <div>
-                  <Marquee>
+                  <Marquee pauseOnHover={true}>
                         <h1 className="bangla tracking-wide text-gray-800 mt-3">
                               আছিম বহুমূখী উচ্চ বিদ্যালয় এ আপনাকে স্বাগতম |
                         </h1>

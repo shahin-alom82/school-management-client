@@ -9,7 +9,7 @@ import Hotline from '../components/RightSide/Hotline';
 import Club from '../components/RightSide/Club';
 import Cart from '../components/LeftSide/Cart';
 import Addmisssion from '../components/RightSide/Addmisssion';
-import Counter from '../components/LeftSide/Counter';
+import Gallary from '../components/LeftSide/Gallary';
 const Home = () => {
       return (
             <Container>
@@ -18,7 +18,7 @@ const Home = () => {
                               <Banner />
                               <SortDetails />
                               <Cart />
-                              <Counter />
+                              <Gallary />
                         </div>
                         <div className='lg:w-2/8'>
                               <HeadTeacher />
