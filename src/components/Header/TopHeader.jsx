@@ -18,7 +18,7 @@ const TopHeader = () => {
       return (
             <div>
                   <div className='bg-white py-3'>
-                        <h1 className='text-center bangla text-[#609513] tracking-wide lg:[18px] text-xs'>পড় তোমার রবের নামে, যিনি তুমাকে সৃষ্টি করেছেন ।</h1>
+                        <h1 className='text-center bangla text-[#609513] tracking-wide lg:text-sm text-xs'>পড় তোমার রবের নামে, যিনি তুমাকে সৃষ্টি করেছেন ।</h1>
                   </div>
                   {/* [#609513] */}
                   <div className='bg-[#01a2a6] py-3 text-white hidden md:block'>

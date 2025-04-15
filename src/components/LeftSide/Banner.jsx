@@ -16,12 +16,12 @@ const Banner = () => {
       return (
             <div>
                   <Marquee pauseOnHover={true}>
-                        <h1 className="bangla tracking-wide text-gray-800 mt-3">
+                        <h1 className="bangla tracking-wide lg:text-[18px] text-[10px] text-gray-800 mt-3">
                               আছিম বহুমূখী উচ্চ বিদ্যালয় এ আপনাকে স্বাগতম |
                         </h1>
                   </Marquee>
 
-                  <div className="mt-[17px]">
+                  <div className="mt-[14px]">
                         <div className="overflow-hidden" ref={emblaRef}>
                               <div className="flex">
                                     {bannerImages.map((item, index) => (

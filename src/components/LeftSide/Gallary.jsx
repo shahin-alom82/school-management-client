@@ -8,8 +8,8 @@ const Gallary = () => {
             <div className='bangla mt-4'>
                   <Marquee speed={100} pauseOnHover={true} gradient={false}>
                         <div className='flex gap-4'>
-                              <img src={img} alt="img" className='lg:h-[260px] h-20 w-[460px]' />
-                              <img src={img2} alt="img" className='lg:h-[260px] h-20 w-[460px]' />
+                              <img src={img} alt="img" className='lg:h-[260px] h-[88px] lg:w-[460px]' />
+                              <img src={img2} alt="img" className='lg:h-[260px] h-[88px] lg:w-[460px]' />
                         </div>
                   </Marquee>
             </div>

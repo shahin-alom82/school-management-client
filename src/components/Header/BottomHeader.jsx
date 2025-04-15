@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Container from '../Container';
 import { GrAnnounce, GrHome } from 'react-icons/gr';
-import { GiTeacher } from 'react-icons/gi';
 import { PiChalkboardTeacherDuotone, PiExam, PiStudentFill } from 'react-icons/pi';
 import { SiGoogleclassroom } from 'react-icons/si';
 import { FiLogIn } from 'react-icons/fi';
@@ -19,9 +18,9 @@ const BottomHeader = () => {
             { title: "Login", path: "/login", icon: <FiLogIn size={18}/> },
       ]
       return (
-            <div className='bg-[#01a2a6] mt-5 hidden md:block'>
-                  <Container>
-                        <div className='flex items-center justify-between py-3'>
+            <div className=' mt-5 hidden md:block'>
+                  <Container className={'bg-[#01a2a6] rounded-t-md'}>
+                        <div className='flex items-center justify-between py-3 px-4'>
                               {
                                     nav.map((item) => (
                                           <div className='text-white relative group'>
