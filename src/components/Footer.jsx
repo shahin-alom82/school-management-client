@@ -18,7 +18,7 @@ const Footer = () => {
                         </div>
                   </Container>
                   <Container>
-                        <p className='lg:text-center py-6 text-gray-900 px-4 bg-[#ebeff0] tracking-wide lg:text-sm text-xs'>&copy; {new Date().getFullYear()} <span className='text-[#23b792]'>Assim Multilateral High School</span> | Developed By <span className='text-[#23b792]'>Shahin Alom</span> All Rights Reserved.</p>
+                        <p className='lg:text-center py-6 text-gray-900 px-4 bg-[#ebeff0] tracking-wide lg:text-sm text-xs'>&copy; {new Date().getFullYear()} <span className='text-[#23b792]'>Assim Multilateral High School</span> | Organized By <span className='text-[#23b792]'>SSC Batch - 2020</span> All Rights Reserved.</p>
                   </Container>
             </div>
       );

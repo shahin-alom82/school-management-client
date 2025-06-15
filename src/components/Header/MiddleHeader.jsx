@@ -10,7 +10,7 @@ const MiddleHeader = () => {
                         <h1 className='bangla tracking-wide lg:text-6xl text-[19px] font-bold text-[#609513]'>আছিম বহুমূখী উচ্চ বিদ্যালয়</h1>
                         <h1 className='tracking-wide font-bold lg:text-3xl text-xs mt-1 text-[#800000] uppercase'>Assim Multilateral High School</h1>
                         <h1 className='bangla tracking-wide lg:text-xl text-[8px] mt-2 text-gray-800'>ডাকঘরঃ আছিম, উপজেলাঃ ফুলবাড়িয়া, জেলাঃ ময়মনসিংহ</h1>
-                        <h1 className='bangla tracking-wide mt-1 lg:text-[18px] text-[8px] text-gray-800'>বিদ্যালয় কোডঃ ৬০০২, স্থাপিতঃ ১৯৪৬ খ্রিস্টাব্দ</h1>
+                        <h1 className='bangla tracking-wide mt-1 lg:text-[18px] text-[8px] text-gray-800'>বিদ্যালয় কোডঃ ৬০০২, স্থাপিতঃ ১৯৪৭ খ্রিস্টাব্দ</h1>
                   </div>
             </div >
       );
